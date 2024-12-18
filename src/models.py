@@ -52,7 +52,7 @@ class Favourites(Base):
     id = Column(Integer, primary_key=True)
     base_type = Column(String(250), nullable=False)
     base_id = Column(Integer, nullable=False)
-git add 
+
 
 ## Draw from SQLAlchemy base
 render_er(Base, 'diagram.png')
